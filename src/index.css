@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navlinks a{
+text-transform: capitalize;
+position: relative;
+}
+
+.navlinks a::after{
+  content: '';
+  background-color: antiquewhite;
+  bottom:-5px;
+  left: 0;
+  width:0;
+height: 2px ;
+position: absolute;
+transition: width 0.3s ease;
+}
+
+
+.navlinks a:hover::after{
+  width: 100%;
+}
+
