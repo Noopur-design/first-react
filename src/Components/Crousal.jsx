@@ -8,7 +8,7 @@ const Crousal = () => {
           <img 
             src="https://images.pexels.com/photos/792199/pexels-photo-792199.jpeg?auto=compress&cs=tinysrgb&w=600" 
             className="d-block w-100 h-[60vh] object-cover" 
-            alt="..." 
+            alt="image" 
           />
         </div>
         <div className="carousel-item">
